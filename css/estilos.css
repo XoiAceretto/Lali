@@ -11,58 +11,7 @@ body{
 	background-color: black;
 	font-size: 40px;
 }
-.contenedorGrid{
-	width: 100%;
-	height: auto;
-	margin: 20px auto;
-	display: grid;
-	grid-gap: 6px;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(8, auto);
-	grid-template-areas:"titulo titulo titulo"
-						"image image section"
-						"text_lva text_lva text_lva"
-						"video video video"
-						"img1 img2 img3"
-						"bloque1 bloque2 bloque3"
-						"redes redes redes"
-						"footer footer footer"						
-}
 
-.contenedorGrid > div,
-.contenedor .titulo,
-.contenedor .image, 
-.contenedor .section,
-.contenedor .text_lva,
-.contenedor .video,
-.contenedor .img1,
-.contenedor .img2,
-.contenedor .img3,
-.contenedor .bloque1,
-.contenedor .bloque2,
-.contenedor .bloque3,
-.contenedor .redes,
-#contenedor .footer 
-{
-	background-color: black;
-	padding: 20px;
-	border-radius: 4px;
-}
-
-.contenedor .titulo{
-	background-color: #0a0a0a;
-	color: #aa0000;
-	text-align: center;
-	font-size: 24px;
-	grid-area: titulo;
-	grid-column-start: 1;
-	grid-column-end: -1;
-}
-
-h3{
-	color: white;
-	text-align: center;
-}
 .titulo{
 	color: #8c0000;
 	font-family: 'Dancing Script', cursive;
@@ -75,18 +24,20 @@ h3{
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: row;
-}
-div img{
-	padding: 30px;
+	padding: 10px;
 	margin: 15px;
-	float: none;
+}
+.image{
+	display: flex;
+	justify-content: center;
+	font-size: 100px;
 }
 li a{  
 	color: #8c0000;
 	font-size: 30px;
 	font-family: 'Square Peg', cursive;
 	font-weight: bold;
-	padding: 2rem;
+	padding: 2.2rem;
 	float: right; 
 	vertical-align: middle;
 } 
@@ -108,6 +59,9 @@ li a{
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-evenly;
+	padding: 20px;
+	margin: 15px;
+	width: 33,333333%;
 }
 .bloques{
 	display: flex;
