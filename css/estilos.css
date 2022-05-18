@@ -11,6 +11,12 @@ body{
 	background-color: black;
 	font-size: 40px;
 }
+h3{
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
 
 .titulo{
 	color: #8c0000;
@@ -59,8 +65,7 @@ li a{
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-evenly;
-	padding: 20px;
-	margin: 15px;
+	padding: 30px;
 	width: 33,333333%;
 }
 .bloques{
@@ -157,6 +162,7 @@ li a{
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	padding-left: 40px;
+	padding-top: 50px;
 }
 .playlist{
 	display: flex;
