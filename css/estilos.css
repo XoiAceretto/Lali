@@ -107,6 +107,9 @@ li a{
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
+	padding-top: 30px;
+	margin: 30px;
+	padding-bottom: 10px;
 }
 #footer{
 	bottom: 0px;
@@ -114,18 +117,20 @@ li a{
 	font-size: 22px;
 	font-weight: bold;
 	text-align: center;
+	padding-bottom: 10px;
 }
 /*Biografia*/
-.navegacion ul{
+.nav_imgbio{
 	display: flex;
 	flex-direction: row;
-	flex-direction: column;
 }
-.historia_img{
-	display: flex;
-	justify-content: space-evenly;
-	flex-direction: row;
+.pic_bio{
+	padding-left: 40px;
+}
+.navegacion ul{
+	display: inline-block;
 	float: right;
+	padding-left: 20px;	
 }
 .historia{
 	color: white;
@@ -135,7 +140,10 @@ li a{
 	display: flex;
 	flex-direction: column;
 	text-align: justify;
-	padding: 30px;
+	padding-left: 40px;
+	padding-right: 280px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 /*Discografia*/
 .discografia{
@@ -148,21 +156,62 @@ li a{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	margin: 10px;
-	padding: 20px auto;
+	padding-left: 40px;
 }
-
+.playlist{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 40px;
+	padding-left: 40px;
+}
 /*Galeria*/
-body{
+.cuerpo{
 	height: auto;
 	margin: 10px;
 	padding: 5px;
 	display: inline;
 	margin: auto;	
 }
+.imgs_menu{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	padding: 10px;
+	margin: 15px;
+}
 .imgs_lali{
-	max-width: 10%;
-	display: inline;
+	text-align: center;
+	padding-top: 25px;
+	transition: all 250ms;
+	}
+.foto:hover{
+	transform: scale(1.1);
+}
+.grupo1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 1rem;
+}
+.grupo2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 1rem; 
+}
+.grupo3{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 1rem;
+}
+.grupo4{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 1rem;
 }
 /*Contacto*/
 form{
