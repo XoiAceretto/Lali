@@ -245,5 +245,26 @@ button{
 	border-radius: 10px;
 	font-size: 15px;
 	padding: 8px;
-	text-align: center;
+} 
+
+
+@media screen and(max-width:768px){
+	.navegacion{
+		width: 50%;
+	}
+	.texto_contacto{
+		width: 50%;
+	}
+	.formulario{
+		width: 100%;
+	}
+	.redes{
+		width: 100%;
+	}
+	#footer{
+		width: 100%;
+	}
 }
+
+
+	
