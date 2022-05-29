@@ -125,17 +125,16 @@ li a{
 	padding-bottom: 10px;
 }
 /*Biografia*/
-.nav_imgbio{
+.navegacion ul{
 	display: flex;
 	flex-direction: row;
+	flex-direction: column;
 }
-.pic_bio{
-	padding-left: 40px;
-}
-.navegacion ul{
-	display: inline-block;
+.historia_img{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
 	float: right;
-	padding-left: 20px;	
 }
 .historia{
 	color: white;
@@ -145,11 +144,9 @@ li a{
 	display: flex;
 	flex-direction: column;
 	text-align: justify;
-	padding-left: 40px;
-	padding-right: 280px;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding: 30px;
 }
+
 /*Discografia*/
 .discografia{
 	background-color: black;
