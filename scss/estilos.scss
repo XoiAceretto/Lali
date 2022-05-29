@@ -1,0 +1,19 @@
+@mixin grupo {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 1rem;   
+}
+
+.grupo1{
+	@include grupo;
+}
+.grupo2{
+	 @include grupo;
+}
+.grupo3{
+	@include grupo;
+}
+.grupo4{
+	@include grupo;
+}
