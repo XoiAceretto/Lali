@@ -13,15 +13,10 @@ body{
 }
 h1{
 	color: #8c0000;
-}
-
-h3{
-	color: white;
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
 }
-
 .titulo{
 	color: #8c0000;
 	font-family: 'Dancing Script', cursive;
