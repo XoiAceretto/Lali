@@ -11,6 +11,10 @@ body{
 	background-color: black;
 	font-size: 40px;
 }
+title{
+	color: #8c0000;
+}
+
 h3{
 	color: white;
 	text-align: center;
@@ -125,6 +129,7 @@ li a{
 	padding-bottom: 10px;
 }
 /*Biografia*/
+
 .nav_imgbio{
 	display: flex;
 	flex-direction: row;
