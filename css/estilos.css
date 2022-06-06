@@ -41,10 +41,7 @@ nav{
 	font-size: 60px;
 	padding:10px;	
 }
-.redes:hover{
-	transition: .5s;
-	transform: scale(1.2);
-}
+
 #footer{
 	padding-bottom: 5px;
 }
