@@ -1,3 +1,114 @@
+@import url('https://fonts.googleapis.com/css2? family= Architects+Hija & family= Cookie & family= Dancing+Script:wght@700 & family= League+Spartan & family= Montserrat: wght@600 & family= Nunito:ital@1 & family= Playfair+Display:ital,wght@1,400;1,500 & family= Roboto:ital,wght@0,400;1,300 & family= Rokkitt:wght@700 & family= Square+ Clavija y pantalla = intercambio');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family:'Montserrat', sans-serif;
+	color: antiquewhite;
+}
+nav{ 
+	color: antiquewhite;
+}
+
+.text_lva{
+	font-style: normal;
+	font-family:'Montserrat', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	padding-top: 80px;
+	color:antiquewhite;
+	text-align: center;
+}
+
+#imagenes .col-lg-4{
+	margin: 0 !important;
+	padding: 30px;
+}
+
+#imagenes img {
+	width: 100%;
+	height: 300px;
+	padding-bottom: 20px;
+}
+
+#imagenes img:hover {
+	border: 5px solid black;
+}
+
+.redes{
+	font-size: 60px;
+	padding:10px;	
+}
+.redes:hover{
+	transition: .5s;
+	transform: scale(1.2);
+}
+#footer{
+	padding-bottom: 5px;
+}
+
+@media screen (max-width: 768px){
+	.video
+}
+.img_bio{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: larger
+}
+.bio p{
+	padding-left: 120px;
+	padding-right: 120px;
+	font-weight:bold;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+}
+
+.playlist{
+	padding-top: 60px;
+}
+
+.cd1{
+	padding-bottom: 20px;
+	font-style: italic;
+}
+
+.cd2{
+	padding-bottom: 20px;
+	font-style: italic;
+}
+
+.cd3{
+	padding-bottom: 20px;
+	font-style: italic;
+}
+
+#galeria img{
+	margin: 0 !important;
+	padding: 20px;
+}
+#galeria img{
+	width: 100%;
+	height: 300px;
+}
+#galeria img:hover{
+	transform: scale(1.1);
+}
+form{
+	background-color:aliceblue;
+	font-style: unset;
+	color: black;
+	font-size: 16px;
+}
+
+.texto{
+	padding-bottom: 40px;
+}
+
+
+/*
 @import url('https://fonts.googleapis.com/css2? family= Architects+Daughter & family= Cookie & family= Dancing+Script:wght@700 & family= League+Spartan & family= Nunito: ital@1 & family= Playfair+Display:ital,wght@1,400;1,500 & family= Roboto:ital,wght@0,400;1,300 & family= Rokkitt:wght@700 & family= Square+Peg & display=swap');
 
 *{
@@ -123,7 +234,7 @@ li a{
 	text-align: center;
 	padding-bottom: 10px;
 }
-/*Biografia*/
+Biografia
 
 .nav_imgbio{
 	display: flex;
@@ -150,7 +261,7 @@ li a{
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
-/*Discografia*/
+Discografia
 .discografia{
 	background-color: black;
 	font-size: 0.5px;
@@ -172,7 +283,7 @@ li a{
 	padding-top: 40px;
 	padding-left: 40px;
 }
-/*Galeria*/
+Galeria
 .cuerpo{
 	height: auto;
 	margin: 10px;
@@ -221,7 +332,7 @@ li a{
 }
 
 
-/*Contacto*/
+Contacto
 form{
 	font-family: 'Square Peg', cursive;
 	font-size: 24px;
@@ -265,6 +376,6 @@ button{
 		width: 100%;
 	}
 }
-
+*/
 
 	
