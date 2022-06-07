@@ -8,8 +8,10 @@ body{
 	font-family:'Montserrat', sans-serif;
 	color: antiquewhite;
 }
-nav{ 
-	color: antiquewhite;
+
+#header{
+	font-size: 18px;
+	color:antiquewhite;
 }
 
 .text_lva{
