@@ -54,7 +54,7 @@
   margin-left: 1rem;
 }
 
-.button, .green, .red, .yellow {
+.button, .green, .red, .yellow, .white {
   border: none;
   padding: 10px 15px;
   text-align: center;
@@ -74,5 +74,9 @@
 
 .yellow {
   background: yellow;
+}
+
+.white {
+  background: white;
 }
 /*# sourceMappingURL=estilos.css.map */
