@@ -150,3 +150,6 @@ form{
 .nav-link:hover{
 	color:darkred;
 }
+.modal-title{
+	color: #000;
+}
