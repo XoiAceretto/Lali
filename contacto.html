@@ -13,7 +13,7 @@
 		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black">
 		<div class="container-fluid">
 		  <a class="navbar-brand" href="#"></a>
-		  <img src="assets/logo.png" alt="Logo_Lali" width="100px" height="100px">
+		  <img src="assets/lali.png" alt="Logo_Lali" width="100px" height="100px">
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		  </button> 
@@ -69,8 +69,21 @@
 			<label for="mensaje">Comentarios</label>
 			<textarea name="mensaje" id="mensaje" class="form-control" placeholder="Escriba aquí su comentario"></textarea>
 		</div>
-		<button class="btn btn-primary">ENVIAR</button>
-		</form>
+		<button class="btn" data-toggle="modal" data-target="#contenedor-modal">ENVIAR</button>
+		<div class="modal fade" id="contenedor-modal" tabindex="-1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title">Disculpe las molestias</h2>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+			<div class="modal-body">
+				<p>Página momentáneamente desactivada</p>
+			</div>
+		</div>
+		</form> 
 	</div>
 	</div>
 </section>
