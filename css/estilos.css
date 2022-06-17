@@ -115,3 +115,31 @@ button{
 	color:aliceblue;
 	font-weight: bold;
 }
+.btn{
+	display: inline-block;
+	background-color: black;
+	color:aliceblue;
+	padding: 2px 6px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+}
+	
+form{
+	background-color: #fdf7e4;
+}
+.contain{
+	object-fit: contain;
+}
+.btn1{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	background-color:darkred;
+	color: aliceblue;
+	border-radius: 5px;
+	padding: 0.8rem 1.5rem;
+	border: 1px solid darkred;
+	margin: auto;
+	margin-top: 3.5rem;
+}
