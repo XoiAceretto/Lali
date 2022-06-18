@@ -27,6 +27,10 @@ body{
 	color:antiquewhite;
 	text-align: center;
 }
+.video_texto{
+	margin: auto;
+	margin-top: 5px;
+}
 #imagenes .col-lg-4{
 	margin: 0 !important;
 	padding: 30px;
@@ -47,9 +51,6 @@ body{
 #footer{
 	padding-bottom: 5px;
 }
-@media screen (max-width: 768px){
-	.video
-}
 .img_bio{
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -62,6 +63,8 @@ body{
 	display: flex;
 	flex-direction: column;
 	text-align: justify;
+	font-size: 18px;
+	color:antiquewhite;
 }
 .playlist{
 	padding-top: 60px;
@@ -160,7 +163,22 @@ form{
 		width: 100%;
 		height: 400px;
 	}
+
+@media all and (min-width:576px){
+	.video{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		height: 400px;
+	}
+}
 }
 .image{
 	margin-top: 10px;
+}
+
+@media all and (max-width:720px){
+		.bio{
+			width: 100%;
+		}	
 }
