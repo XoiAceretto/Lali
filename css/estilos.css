@@ -164,7 +164,7 @@ form{
 		height: 400px;
 	}
 
-@media all and (min-width:576px){
+@media all and (max-width:576px){
 	.video{
 		display: flex;
 		justify-content: center;
