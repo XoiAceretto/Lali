@@ -44,6 +44,7 @@
 	background: white;
 }
 */
+
 #header{
 	font-size: 18px;
 	color: antiquewhite;
@@ -58,5 +59,8 @@
 		font-weight: bold;
 		display: flex;
 		justify-content: center;
+	&:hover{
+		color:darkred;
+	}
 	}
 }
