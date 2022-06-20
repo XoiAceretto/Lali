@@ -1,3 +1,4 @@
+/*
 @mixin grupo {
     display: flex;
 	flex-direction: row;
@@ -41,4 +42,21 @@
 .white{
 	@extend .button;
 	background: white;
+}
+*/
+#header{
+	font-size: 18px;
+	color: antiquewhite;
+	.navbar-toggler{
+		color:antiquewhite;
+		.navbar-toggler-icon{
+		color: antiquewhite;
+		}
+	}
+	.nav-link{
+		color:aliceblue;
+		font-weight: bold;
+		display: flex;
+		justify-content: center;
+	}
 }
