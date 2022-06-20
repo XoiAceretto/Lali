@@ -156,7 +156,7 @@ form{
 .modal-title{
 	color: #000;
 }
-@media all and (max-width:576px){
+@media all and (max-width:500px){
 	.video{
 		display: flex;
 		justify-content: center;
