@@ -21,6 +21,8 @@ body{
 .nav-link{
 	color:aliceblue;
 	font-weight: bold;
+	display: flex;
+	justify-content: center;
 }
 .image{
 	margin: auto;
@@ -47,10 +49,6 @@ button{
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 15px;
-}
-.nav-link{
-	display: flex;
-	justify-content: center;	
 }
 .nav-link:hover{
 	color:darkred;
@@ -127,8 +125,7 @@ h3{
 #galeria img{
 	margin: 0 !important;
 	padding: 20px;
-}
-#galeria img{
+
 	width: 100%;
 	height: 300px;
 }
@@ -147,10 +144,6 @@ form{
 .modal-title{
 	color: #000;
 }
-.image{
-	margin: auto;
-	margin-top: 30px;
-}
 @media all and (max-width:720px){
 	.bio p{
 		padding-left: 36px;
@@ -162,4 +155,3 @@ form{
 		color:antiquewhite;
 	}
 }
-
