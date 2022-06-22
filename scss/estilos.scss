@@ -44,6 +44,10 @@
 	background: white;
 }
 */
+body{
+	font-family: 'Montserrat' , sans-serif;
+	color:antiquewhite;
+}
 
 #header{
 	font-size: 18px;
@@ -64,3 +68,41 @@
 	}
 	}
 }
+.image{
+	margin:auto;
+	margin-top: 30px;
+}
+.btn1{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	background-color: darkred;
+	color:aliceblue;
+	border-radius: 5px;
+	padding: 0.8rem 1.5rem;
+	border: 1px solid darkred;
+	margin: auto;
+	margin-top: 3.5rem;
+}
+#imagenes{
+	.col-lg-4{
+		margin: 0px;
+		padding: 30px;
+		img{
+			width:100%;
+			height: 300px;
+			padding: auto;
+			padding-bottom: 20px;
+			&:hover{
+				border: 5px solid black;
+			}
+			.contain{
+				object-fit: contain;
+			}
+		}
+		h3{
+			margin:auto;
+			margin-bottom: 20px;
+		}
+	}
+}	
