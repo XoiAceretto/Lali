@@ -138,9 +138,11 @@ body{
 		color:antiquewhite
 	}
 }
-.cd1 .cd2 .cd3{
+.cd{
 	padding-bottom: 20px;
 	font-style: italic;
+	display: flex;
+	flex-direction: row;
 }
 .playlist{
 	padding-top: 60px;
