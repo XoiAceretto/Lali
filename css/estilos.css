@@ -101,18 +101,13 @@ h3{
 	font-size: 18px;
 	color:antiquewhite;
 }
-.cd1{
+.cd{
 	padding-bottom: 20px;
 	font-style: italic;
+	display: flex;
+	flex-direction: row;
 }
-.cd2{
-	padding-bottom: 20px;
-	font-style: italic;
-}
-.cd3{
-	padding-bottom: 20px;
-	font-style: italic;
-}
+
 .playlist{
 	padding-top: 60px;
 }
