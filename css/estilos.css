@@ -147,7 +147,7 @@ form{
 	font-size: 15px;
 }
 .modal-title{
-	color: #000;
+	color: black;
 }
 @media all and (max-width:720px){
 	.bio p{
