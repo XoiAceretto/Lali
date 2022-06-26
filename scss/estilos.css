@@ -127,7 +127,7 @@ body {
   }
 }
 
-.cd {
+.cd, .cd1, .cd2, .cd3 {
   padding-bottom: 20px;
   font-style: italic;
   display: -webkit-box;
@@ -139,8 +139,25 @@ body {
           flex-direction: row;
 }
 
-.cd .cd1 .cd2 .cd3 {
+.cd1 {
   padding-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cd2 {
+  padding-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cd3 {
+  padding-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .playlist {
@@ -164,8 +181,8 @@ body {
 }
 
 .texto {
-  padding-bottom: 40PX;
   font-size: 20px;
+  padding-bottom: 40px;
 }
 
 .form {

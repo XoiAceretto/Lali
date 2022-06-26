@@ -4,8 +4,6 @@
 
 @import "extend";
 
-@import "mixin";
-
 *{                                                        
 	margin:0px;
 	padding: 0px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
@@ -104,9 +102,21 @@ body{
 	font-style: italic;
 	display: flex;
 	flex-direction: row;
-	.cd1 .cd2 .cd3{
-		padding-bottom: 20px;
-	}
+}
+.cd1{
+	@extend .cd;
+	padding-bottom: 20px;
+	justify-content: center;
+}
+.cd2{
+	@extend .cd;
+	padding-bottom: 20px;
+	justify-content: center;
+}
+.cd3{
+	@extend .cd;
+	padding-bottom: 20px;
+	justify-content: center;
 }
 .playlist{
 	padding-top: 60px;
@@ -120,12 +130,15 @@ body{
 		transform: scale(1.1);
 	}
 }
-.text-op{
+@mixin textos1 {
 	font-size: 20px;
+}
+.text-op{
+	@include textos1;
 } 
 .texto{
-	padding-bottom: 40PX;
-	font-size: 20px;
+	@include textos1;
+	padding-bottom: 40px;	
 }
 .form{
 	background-color: map-get($map: $palette, $key:'cuarto');
