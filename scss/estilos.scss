@@ -1,29 +1,35 @@
 @import "map"; 
 
+@import "fuentes";
+
+@import "extend";
+
+@import "mixin";
+
 *{
 	margin:0px;
 	padding: 0px;
 }
 body{
 	font-family: 'Montserrat' , sans-serif;
-	color: map-get($map: $palette, $key: 'segundo')
+	color: map-get($map: $palette, $key: 'segundo');
 	}
 #header{
 	font-size: 18px;
-	color: map-get($map: $palette, $key:'segundo')
+	color: map-get($map: $palette, $key: 'segundo');
 	.navbar-toggler{
-		color: map-get($map: $palette, $key: 'segundo')
+		color: map-get($map: $palette, $key:'segundo');
 		.navbar-toggler-icon{
-		color: map-get($map: $palette , $key: 'segundo')
+		color: map-get($map: $palette , $key: 'segundo');
 		}
 	}
 	.nav-link{
-		color:aliceblue;
-		font-weight: bold;
+		color: map-get($map: $palette, $key:'quinto');
+		font-weight: bold; 
 		display: flex;
 		justify-content: center;
 	&:hover{
-		color:darkred;
+		color: map-get($map: $palette, $key:'tercero');
 	}
 	}
 }
@@ -34,12 +40,12 @@ body{
 .btn1{
 	display: flex;
 	text-align: center;
-	background-color: darkred;
-	color:aliceblue;
+	background-color: map-get($map: $palette, $key:'tercero');
+	color: map-get($map: $palette, $key:'quinto');
 	font-weight: bold;
 	border-radius: 5px;
 	padding: 0.8rem 2.2rem;
-	border: 1px solid darkred;
+	border: 1px solid map-get($map: $palette, $key:'tercero')
 	margin: auto;
 	margin-top: 3.5rem;
 }
@@ -53,7 +59,7 @@ body{
 			padding: auto;
 			padding-bottom: 20px;
 			&:hover{
-				border: 5px solid black;
+				border: 5px solid map-get($map: $palette, $key:'primero');
 			}
 			.contain{
 				object-fit: contain;
@@ -86,7 +92,7 @@ body{
 	flex-direction: column;
 	text-align: justify;
 	font-size: 18px;
-	color:antiquewhite;
+	color: map-get($map: $palette, $key: 'segundo');
 	@media all and (max-width:720px){
 		padding-left: 36px;
 		padding-right: 36px;
@@ -94,7 +100,7 @@ body{
 		display: flex;
 		flex-direction: column;
 		font-size: 18px;
-		color:antiquewhite
+		color: map-get($map: $palette, $key: 'segundo');
 	}
 }
 .cd{
@@ -122,21 +128,21 @@ body{
 	padding-bottom: 40PX;
 }
 form{
-	background-color: map-get($map: $palette,$key:'cuarto');
+	background-color: map-get($map: $palette, $key:'cuarto');
 	font-style: unset;
-	color:black;
+	color: map-get($map: $palette, $key: 'primero');
 	font-size: 16px;
 }
 .btn{
 	display: inline-block;
-	background-color: black;
-	color:aliceblue;
+	background-color: map-get($map: $palette, $key:'primero');
+	color: map-get($map: $palette, $key: 'quinto');
 	padding: 2px 6px;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 15px;
 }
 .modal-tittle{
-	color:black;
+	color: map-get($map: $palette, $key: 'primero');
 }
 
