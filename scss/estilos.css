@@ -159,8 +159,13 @@ body {
           transform: scale(1.1);
 }
 
+.text-op {
+  font-size: 25px;
+}
+
 .texto {
   padding-bottom: 40PX;
+  font-size: 25px;
 }
 
 .form {
