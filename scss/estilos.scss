@@ -139,6 +139,6 @@ body{
 	font-size: 15px;
 }
 .modal-tittle{
-	color: map-get($map: $palette, $key: 'primero');
+	color: map-get($map: $palette, $key:'primero');
 }
 
