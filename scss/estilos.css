@@ -1,52 +1,10 @@
-/*
-@mixin grupo {
-    display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin-left: 1rem;   
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.grupo1{
-	@include grupo;
-}
-.grupo2{
-	 @include grupo;
-}
-.grupo3{
-	@include grupo;
-}
-.grupo4{
-	@include grupo;
-}
-
-.button {
-	border:none;
-	padding: 10px 15px;
-	text-align: center;
-	font-size: 20px;
-	cursor: pointer;
-	box-shadow:2px 2px 10px #000;
-}
-.green{
-	@extend .button;
-	background: green;
-}
-.red{
-	@extend .button;
-	background: red;
-}
-.yellow{
-	@extend .button;
-	background: yellow ;
-}
-.white{
-	@extend .button;
-	background: white;
-}
-*/
 body {
   font-family: 'Montserrat' , sans-serif;
-  color: antiquewhite;
 }
 
 #header {
@@ -209,7 +167,6 @@ body {
 }
 
 form {
-  background-color: #fdf7e4;
   font-style: unset;
   color: black;
   font-size: 16px;
