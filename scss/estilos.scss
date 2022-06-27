@@ -1,93 +1,108 @@
-@import "map"; 
+@import "map";
 
 @import "fuentes";
 
-*{                                                        
-	margin:0px;
-	padding: 0px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-} 
-body{
-	font-family: 'Montserrat' , sans-serif;
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
 	color: map-get($map: $palette, $key: 'segundo');
-	}
-#header{
+}
+
+#header {
 	font-size: 18px;
 	color: map-get($map: $palette, $key: 'segundo');
-	.navbar-toggler{
-		color: map-get($map: $palette, $key:'segundo');
-		.navbar-toggler-icon{
-		color: map-get($map: $palette , $key: 'segundo');
+
+	.navbar-toggler {
+		color: map-get($map: $palette, $key: 'segundo');
+
+		.navbar-toggler-icon {
+			color: map-get($map: $palette , $key: 'segundo');
 		}
 	}
-	.nav-link{
-		color: map-get($map: $palette, $key:'quinto');
-		font-weight: bold; 
+
+	.nav-link {
+		color: map-get($map: $palette, $key: 'quinto');
+		font-weight: bold;
 		display: flex;
 		justify-content: center;
-	&:hover{
-		color: map-get($map: $palette, $key:'tercero');
-	}
+
+		&:hover {
+			color: map-get($map: $palette, $key: 'tercero');
+		}
 	}
 }
-.btn1{
+
+.btn1 {
 	display: flex;
 	justify-content: center;
-	background-color: map-get($map: $palette, $key:'tercero');
-	color: map-get($map: $palette, $key:'quinto');
+	background-color: map-get($map: $palette, $key: 'tercero');
+	color: map-get($map: $palette, $key: 'quinto');
 	font-weight: bold;
 	border-radius: 5px;
 	padding: 0.8rem 2.2rem;
-	border: 1px solid map-get($map: $palette, $key:'tercero');
+	border: 1px solid map-get($map: $palette, $key: 'tercero');
 	margin: auto;
-	margin-top: 3.5rem; 
+	margin-top: 3.5rem;
 }
-#imagenes{
-	.container{
-		.row{
-			.col-lg-4{
+
+#imagenes {
+	.container {
+		.row {
+			.col-lg-4 {
 				margin: 0px;
 				padding: 30px;
-				h3{
-					margin:auto;
+
+				h3 {
+					margin: auto;
 					margin-bottom: 20px;
 				}
-				img{
-					width:100%;
+
+				img {
+					width: 100%;
 					height: auto;
 					padding: auto;
 					padding-bottom: 20px;
-					&:hover{
-						border: 5px solid map-get($map: $palette, $key:'primero');
-						@media all and(max-width:768px){
+
+					&:hover {
+						border: 5px solid map-get($map: $palette, $key: 'primero');
+
+						@media all and(max-width:768px) {
 							margin: 0px;
 							padding: 30px;
 							width: 100%;
 							height: auto;
 							padding: auto;
-							padding-bottom: 20px;	
+							padding-bottom: 20px;
 						}
 					}
 				}
 			}
 		}
 	}
-			
+
 }
 
-.redes{
+.redes {
 	font-size: 60px;
 	padding-bottom: 5px;
 }
-#footer{
-	padding:auto;
+
+#footer {
+	padding: auto;
 	padding-bottom: 5px;
 }
-.img_bio{
+
+.img_bio {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	font-size: larger;
 }
-.bio p{
+
+.bio p {
 	padding-left: 120px;
 	padding-right: 120px;
 	font-weight: bold;
@@ -96,7 +111,8 @@ body{
 	text-align: justify;
 	font-size: 18px;
 	color: map-get($map: $palette, $key: 'segundo');
-	@media all and (max-width:720px){
+
+	@media all and (max-width:720px) {
 		padding-left: 36px;
 		padding-right: 36px;
 		font-weight: bold;
@@ -106,69 +122,83 @@ body{
 		color: map-get($map: $palette, $key: 'segundo');
 	}
 }
-.cd{
+
+.cd {
 	padding-bottom: 20px;
 	font-style: italic;
 	display: flex;
 	flex-direction: row;
-	@media all and(max-width:768px){
+
+	@media all and(max-width:768px) {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 	}
-	}
-.cd1{
+}
+
+.cd1 {
 	@extend .cd;
 	padding-bottom: 20px;
 	justify-content: center;
 }
-.cd2{
+
+.cd2 {
 	@extend .cd;
 	padding-bottom: 20px;
 	justify-content: center;
 }
-.cd3{
+
+.cd3 {
 	@extend .cd;
 	padding-bottom: 20px;
 	justify-content: center;
 }
-.playlist{
+
+.playlist {
 	padding-top: 60px;
 }
-#galeria img{
-	margin:0px;
+
+#galeria img {
+	margin: 0px;
 	padding: 20px;
 	width: 100%;
 	height: 100%;
-	&:hover{
+
+	&:hover {
 		transform: scale(1.1);
 	}
 }
+
 @mixin textos1 {
 	font-size: 20px;
 }
-.text-op{
+
+.text-op {
 	@include textos1;
-} 
-.texto{
-	@include textos1;
-	padding-bottom: 40px;	
 }
-.form{
-	background-color: map-get($map: $palette, $key:'cuarto');
+
+.texto {
+	@include textos1;
+	padding-bottom: 40px;
+}
+
+.form {
+	background-color: map-get($map: $palette, $key: 'cuarto');
 	font-style: unset;
 	color: map-get($map: $palette, $key: 'primero');
 	font-size: 16px;
 }
-.btn{
+
+.btn {
 	display: inline-block;
-	background-color: map-get($map: $palette, $key:'primero');
+	background-color: map-get($map: $palette, $key: 'primero');
 	color: map-get($map: $palette, $key: 'quinto');
 	padding: 2px 6px;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 15px;
 }
-.modal-title{
-	color: map-get($map: $palette, $key:'primero');
+
+.modal-title {
+	color: map-get($map: $palette, $key: 'primero');
 }
