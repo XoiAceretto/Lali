@@ -2,8 +2,6 @@
 
 @import "fuentes";
 
-@import "extend";
-
 *{                                                        
 	margin:0px;
 	padding: 0px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
@@ -102,7 +100,12 @@ body{
 	font-style: italic;
 	display: flex;
 	flex-direction: row;
-}
+	@media all and(max-width:768px){
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
 .cd1{
 	@extend .cd;
 	padding-bottom: 20px;

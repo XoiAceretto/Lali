@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Montserrat' , sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: antiquewhite;
 }
 
@@ -13,33 +13,23 @@ body {
   font-size: 18px;
   color: antiquewhite;
 }
-
 #header .navbar-toggler {
   color: antiquewhite;
 }
-
 #header .navbar-toggler .navbar-toggler-icon {
   color: antiquewhite;
 }
-
 #header .nav-link {
   color: aliceblue;
   font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 #header .nav-link:hover {
   color: darkred;
 }
 
 .btn1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
   background-color: darkred;
@@ -56,23 +46,19 @@ body {
   margin: 0px;
   padding: 30px;
 }
-
 #imagenes .col-lg-4 img {
   width: 100%;
   height: 300px;
   padding: auto;
   padding-bottom: 20px;
 }
-
 #imagenes .col-lg-4 img:hover {
   border: 5px solid black;
 }
-
 #imagenes .col-lg-4 img .contain {
   -o-object-fit: contain;
      object-fit: contain;
 }
-
 #imagenes .col-lg-4 h3 {
   margin: auto;
   margin-bottom: 20px;
@@ -98,66 +84,51 @@ body {
   padding-left: 120px;
   padding-right: 120px;
   font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: justify;
   font-size: 18px;
   color: antiquewhite;
 }
-
 @media all and (max-width: 720px) {
   .bio p {
     padding-left: 36px;
     padding-right: 36px;
     font-weight: bold;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     font-size: 18px;
     color: antiquewhite;
   }
 }
 
-.cd, .cd1, .cd2, .cd3 {
+.cd, .cd3, .cd2, .cd1 {
   padding-bottom: 20px;
   font-style: italic;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
+}
+@media all and (max-width: 768px) {
+  .cd, .cd3, .cd2, .cd1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .cd1 {
   padding-bottom: 20px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .cd2 {
   padding-bottom: 20px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .cd3 {
   padding-bottom: 20px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .playlist {
@@ -170,10 +141,8 @@ body {
   width: 100%;
   height: 300px;
 }
-
 #galeria img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .text-op {
@@ -200,5 +169,4 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
-}
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
